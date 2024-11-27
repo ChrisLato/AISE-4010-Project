@@ -1,0 +1,16 @@
+name: xgboost-env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
