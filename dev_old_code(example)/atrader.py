@@ -8,7 +8,7 @@ import talib
 
 
 class ETHTrader:
-    def __init__(self, n_states=5, exchange_id='binance', symbol='ETH/USDT', timeframe='1d', limit=500, random_seed=42):
+    def __init__(self, n_states=4, random_seed=42):
         self.model = hmm.GaussianHMM(n_components=n_states, covariance_type="full", n_iter=1000, random_state=random_seed)
         self.states = ["Bullish", "Bearish", "High Volatility", "Low Volatility", "Correction"] 
         self.exchange_id = exchange_id  
