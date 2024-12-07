@@ -2,5 +2,5 @@
 
 Code developers:
 
-Chris Latosinsky
+Chris Latosinsky,
 Dev Patel
